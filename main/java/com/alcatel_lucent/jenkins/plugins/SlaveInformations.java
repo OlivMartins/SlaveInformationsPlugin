@@ -19,14 +19,13 @@ public class SlaveInformations extends Plugin {
 	@Extension
 	public static class MyLink extends ManagementLink implements RootAction{
 
+		@Override
 		public String getDisplayName() {
-
 			return "Slave Information";
 		}
 		
 		@Override
 		public String getIconFileName() {
-
 			return "/plugin/slave/icon.jpg";
 		}
 	
@@ -35,8 +34,6 @@ public class SlaveInformations extends Plugin {
 
 			return Jenkins.getInstance().getRootUrl()+ "plugin/slave/";
 		}
-
-		
 	}
 	public String getName() {
 		return name;
