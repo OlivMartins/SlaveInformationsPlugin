@@ -6,6 +6,12 @@ import hudson.Plugin;
 import hudson.model.ManagementLink;
 import hudson.model.RootAction;
 
+
+/**
+ * @author Olivier Ferreira <br />
+ * 	olivier.ferreira@alcatel-lucent.com 
+ */
+
 public class SlaveInformations extends Plugin {
 
 	
@@ -13,20 +19,21 @@ public class SlaveInformations extends Plugin {
 	@Extension
 	public static class MyLink extends ManagementLink implements RootAction{
 
+		public String getDisplayName() {
+
+			return "Slave Information";
+		}
+		
 		@Override
 		public String getIconFileName() {
 
-			return "/plugin/infos/icon.jpg";
+			return "/plugin/slave/icon.jpg";
 		}
-		
-		public String getDisplayName() {
-
-			return "Slave Informations";
-		}
+	
 		@Override
 		public String getUrlName() {
 
-			return Jenkins.getInstance().getRootUrl()+ "plugin/infos/";
+			return Jenkins.getInstance().getRootUrl()+ "plugin/slave/";
 		}
 
 		
