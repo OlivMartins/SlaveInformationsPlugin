@@ -1,6 +1,6 @@
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">  
   <h1> Slave informations </h1>
   
-  <img src="/plugin/infos/slaveLogo.jpg"/>
+  <img src="/plugin/slave/slaveLogo.jpg"/>
   
 </j:jelly>
