@@ -21,7 +21,7 @@ public class SlaveInformations extends Plugin {
 
 		@Override
 		public String getDisplayName() {
-			return "Slave Information";
+			return "Slave Informations";
 		}
 		
 		@Override
