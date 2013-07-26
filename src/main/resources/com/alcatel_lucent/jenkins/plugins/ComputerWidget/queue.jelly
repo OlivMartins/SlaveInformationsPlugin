@@ -1,7 +1,4 @@
+<?jelly escape-by-default='true'?>
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
-<j:if test="${!it.builds.isEmpty()}">
-<l:pane width="2" title="Test">
-	<h1> TEST </h1>
-</l:pane>
-</j:if>
+<h1> TEST </h1>
 </j:jelly>

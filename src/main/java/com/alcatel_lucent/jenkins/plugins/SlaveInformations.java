@@ -14,7 +14,6 @@ import hudson.model.RootAction;
 
 public class SlaveInformations extends Plugin {
 
-	
 	private String name;
 	@Extension
 	public static class MyLink extends ManagementLink implements RootAction{
@@ -42,5 +41,4 @@ public class SlaveInformations extends Plugin {
 		this.name = name;
 	}
 	
-
 }
