@@ -14,7 +14,7 @@ import hudson.model.Hudson;
 public class ComputerWidget extends ComputerPanelBox {
 
 	
-	public List<hudson.model.Queue.BuildableItem> items() {
+	public List<?> items() {
         return Hudson.getInstance().getQueue().getBuildableItems(super.getComputer());
     }
 	
