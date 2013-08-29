@@ -18,4 +18,7 @@ public class ComputerWidget extends ComputerPanelBox {
         return Hudson.getInstance().getQueue().getBuildableItems(super.getComputer());
     }
 	
+	
+	
+	
 }

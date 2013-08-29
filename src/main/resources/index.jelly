@@ -3,6 +3,6 @@
   xmlns:d="jelly:define" xmlns:l="/lib/layout"
   xmlns:t="/lib/hudson" xmlns:f="/lib/form">
 
-  This plug-in provides informations of jenkins slave
+  This plug-in provides informations of jenkins slaveALLO
 
   </j:jelly>
