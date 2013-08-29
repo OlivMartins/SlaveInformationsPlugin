@@ -5,12 +5,13 @@ import java.util.List;
 
 
 
+import hudson.Extension;
 import hudson.model.BuildableItem;
 import hudson.model.ComputerPanelBox;
 import hudson.model.Computer;
 import hudson.model.Hudson;
 
-
+@Extension
 public class ComputerWidget extends ComputerPanelBox {
 
 	
