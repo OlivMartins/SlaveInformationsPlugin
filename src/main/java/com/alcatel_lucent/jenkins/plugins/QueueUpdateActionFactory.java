@@ -15,7 +15,6 @@ public class QueueUpdateActionFactory extends TransientComputerActionFactory {
 		List<Action> actions = new ArrayList<Action>();
         actions.add(new QueueUpdateAction(target));
         return actions;
-        
 	}
 	
 }
