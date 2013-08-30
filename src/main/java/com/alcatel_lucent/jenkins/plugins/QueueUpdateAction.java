@@ -24,14 +24,6 @@ public class QueueUpdateAction implements Action {
 	        return "updateQueue";
 	    }
 	    
-	    public ComputerWidget getComputerQueue(){
-	        for(ComputerPanelBox box: computer.getComputerPanelBoxs()){
-	            if(box instanceof ComputerWidget)
-	                return (ComputerWidget) box;
-	        }
-	        ComputerWidget queue = new ComputerWidget();
-	        queue.setComputer(computer);
-	        return queue;
-	    }
+	  
 
 }
