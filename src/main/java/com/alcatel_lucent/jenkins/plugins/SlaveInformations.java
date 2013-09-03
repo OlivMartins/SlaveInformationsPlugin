@@ -1,5 +1,9 @@
 package com.alcatel_lucent.jenkins.plugins;
 
+import net.sf.json.JSONObject;
+
+import org.kohsuke.stapler.StaplerRequest;
+
 import jenkins.model.Jenkins;
 import hudson.Extension;
 import hudson.Plugin;
@@ -15,7 +19,7 @@ import hudson.model.RootAction;
 public class SlaveInformations extends Plugin {
 
 	private String name;
-	@Extension
+	
 	public static class MyLink extends ManagementLink implements RootAction{
 
 		@Override

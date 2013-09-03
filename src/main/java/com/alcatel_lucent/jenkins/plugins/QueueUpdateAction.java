@@ -1,9 +1,10 @@
 package com.alcatel_lucent.jenkins.plugins;
 
+import hudson.Extension;
 import hudson.model.Action;
-import hudson.model.ComputerPanelBox;
-import hudson.model.Computer;
 
+import hudson.model.Computer;
+@Extension
 public class QueueUpdateAction implements Action {
 
 	 private Computer computer;
